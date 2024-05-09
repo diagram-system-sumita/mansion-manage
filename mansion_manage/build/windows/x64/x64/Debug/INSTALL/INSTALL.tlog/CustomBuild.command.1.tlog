@@ -1,0 +1,10 @@
+^C:\PROJECT\MANSION\MANSION_MANAGE\BUILD\WINDOWS\X64\CMAKEFILES\3879A0352446DB3602441A332E249D07\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

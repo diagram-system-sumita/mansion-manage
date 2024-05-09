@@ -1,0 +1,1 @@
+ c:\\Project\\mansion\\mansion_manage\\.dart_tool\\flutter_build\\1ab034e57c18903645ca3e941c4e0e64\\native_assets.yaml: 

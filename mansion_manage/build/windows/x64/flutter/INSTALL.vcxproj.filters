@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\mansion\mansion_manage\build\windows\x64\CMakeFiles\1a9224cccd433154266e22b837d05760\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8038D2C0-47D2-30B0-9834-72C9080767B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

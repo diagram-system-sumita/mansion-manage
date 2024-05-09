@@ -1,0 +1,10 @@
+^C:\PROJECT\MANSION\MANSION_MANAGE\BUILD\WINDOWS\X64\CMAKEFILES\3879A0352446DB3602441A332E249D07\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/mansion/mansion_manage/windows -BC:/Project/mansion/mansion_manage/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Project/mansion/mansion_manage/build/windows/x64/mansion_manage.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
